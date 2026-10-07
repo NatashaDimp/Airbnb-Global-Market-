@@ -1,0 +1,11 @@
+# Raw data is large and shouldn't live in GitHub — link to the
+# Kaggle/source dataset in the README instead.
+data/*.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Local environment secrets
+.env
